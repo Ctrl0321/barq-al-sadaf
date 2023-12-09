@@ -1,38 +1,114 @@
-.App {
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.landing-page{
+  height: 100vh;
+}
+.landing-page h2{
+  color: #F27640;
+}
+.landing-wording{
+  display: flex;
+  align-items: center;
+}
+.landing-image{
+  width: 70%;
+}
+.landing-image img{
+  width: 700px;
+}
+.landing-text{
+  padding: 0 0 0 150px;
+}
+.landing-text h1{
+  font-size: 50px;
+}
+.landing-text p{
+  font-weight: 600;
+}
+.landing-text button {
+  background-color: #F27640;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 15px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.services-container{
+margin-bottom: 50px;}
+.welcome-text{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.welcome-text p{
+  color: #F27640;
+  font-weight: 500;
+  font-size: x-large;
+  margin-bottom: -20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcome-text h2{
+  font-size: xx-large;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.services{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.service{
+  width: 300px;
+  margin: auto 20px;
+    height: 400px;
+  padding: 30px ;
+  border-radius: 20px;
+}
+.service button {
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid #F27640; 
+  padding-bottom: 5px;
+  background: white;
+  cursor: pointer;
+}
+.service:hover{
+  background: #FFF1EC;
+}
+.service:hover button {
+  background-color: #FFF1EC; /* New background color for the button on hover */
 }
 
-.App-link {
-  color: #61dafb;
+.service img{
+  width: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.why-choose-container{
+  background-color: #FEF1EC;
+}
+.why-choose-text{
+  text-align: center;
+  font-weight: 500;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+.gold{
+  color: #F27640;
+}
+.why-choose-sub{
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  align-items: center;
+}
+.why-choose-desc{
+  width: 600px;
+  margin: 0 50px;
+}
+
+.why-choose-container button {
+  font-weight: 500;
+  border: none;
+  border-bottom: 2px solid #F27640; 
+  padding-bottom: 5px;
+  background: #FEF1EC;
 }
