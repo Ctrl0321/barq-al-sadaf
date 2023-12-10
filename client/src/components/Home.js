@@ -1,12 +1,12 @@
 import React from "react";
-import landingImage from "../assets/landing-image.png";
-import tick from "../assets/correct-mark.png";
-import laptop from "../assets/laptop.png";
-import lock from "../assets/lock.png";
-import chart from "../assets/chart.png";
-import ruby from "../assets/ruby.png";
-import manWithChart from "../assets/manWithChart.png";
-import document from "../assets/document.png";
+import landingImage from "../assets/landing-image-red.png";
+import tick from "../assets/correct-mark-red.png";
+import laptop from "../assets/laptop-red.png";
+import lock from "../assets/lock-red.png";
+import chart from "../assets/chart-red.png";
+import ruby from "../assets/ruby-red.png";
+import manWithChart from "../assets/manWithChart-red.png";
+import document from "../assets/document-red.png";
 
 const Home = () => {
   return (

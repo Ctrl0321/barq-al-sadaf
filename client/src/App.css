@@ -7,7 +7,7 @@
   height: 100vh;
 }
 .landing-page h2{
-  color: #F27640;
+  color: #D22B2B;
   margin-left: 50px;
 }
 .landing-wording{
@@ -30,7 +30,7 @@
   font-weight: 600;
 }
 .landing-text button {
-  background-color: #F27640;
+  background-color: #D22B2B;
   color: white;
   font-weight: 500;
   border: none;
@@ -44,7 +44,7 @@ margin-bottom: 50px;}
   text-align: center;
 }
 .welcome-text p{
-  color: #F27640;
+  color: #D22B2B;
   font-weight: 500;
   font-size: x-large;
   margin-bottom: -20px;
@@ -67,7 +67,7 @@ margin-bottom: 50px;}
 .service button {
   font-weight: 500;
   border: none;
-  border-bottom: 2px solid #F27640; 
+  border-bottom: 2px solid #D22B2B;
   padding-bottom: 5px;
   background: white;
   cursor: pointer;
@@ -94,7 +94,7 @@ margin-bottom: 50px;}
   margin-bottom: 100px;
 }
 .gold{
-  color: #F27640;
+  color: #D22B2B;
 }
 .why-choose-sub{
   display: flex;
@@ -110,7 +110,7 @@ margin-bottom: 50px;}
 .why-choose-container button {
   font-weight: 500;
   border: none;
-  border-bottom: 2px solid #F27640; 
+  border-bottom: 2px solid #D22B2B;
   padding-bottom: 5px;
   background: #FEF1EC;
 }
@@ -120,7 +120,7 @@ margin-bottom: 50px;}
   padding: 50px 0;
 }
 .best-service-container{
-  background: #F27B48;
+  background: #D22B2B;
   display: flex;
   align-items: center;
 }
@@ -149,7 +149,7 @@ margin-bottom: 50px;}
   width: 270px;
   font-size: 60px;
   padding-bottom: 15px;
-  border-bottom: #F27640 2px solid;
+  border-bottom: #D22B2B 2px solid;
 }
 
 footer{
@@ -162,7 +162,7 @@ footer{
   text-align: center;
 }
 footer span{
-  color: #F27640;
+  color: #D22B2B;
 }
 
 @media only screen and (max-width: 768px){
@@ -170,7 +170,7 @@ footer span{
     height: auto;
   }
   .landing-page h2 {
-    color: #F27640;
+    color: #D22B2B;
     margin-left: 7px;
 }
   .landing-wording{
@@ -254,7 +254,7 @@ footer span{
     width: 270px;
     font-size: 30px;
     padding-bottom: 15px;
-    border-bottom: #F27640 2px solid;
+    border-bottom: #D22B2B 2px solid;
   }
   footer h2{
     font-size: medium;
