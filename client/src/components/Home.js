@@ -1,5 +1,5 @@
 import React from "react";
-import landingImage from "../assets/landing-image-red.png";
+import landingImage from "../assets/COver.png";
 import tick from "../assets/correct-mark-red.png";
 import laptop from "../assets/laptop-red.png";
 import lock from "../assets/lock-red.png";
@@ -7,12 +7,14 @@ import chart from "../assets/chart-red.png";
 import ruby from "../assets/ruby-red.png";
 import manWithChart from "../assets/manWithChart-red.png";
 import document from "../assets/document-red.png";
+import logo from "../assets/Logo.png"
 
 const Home = () => {
   return (
     <>
       <div className="landing-page">
-        <h2>BARQ AL SADAF</h2>
+        {/*<h2>BARQ AL SADAF</h2>*/}
+        <img className="logo" src={logo} alt="landing"></img>
         <div className="landing-wording">
           <div className="landing-text">
             <h1>

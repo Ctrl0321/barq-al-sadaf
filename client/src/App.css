@@ -4,7 +4,12 @@
 }
 
 .landing-page{
-  height: 100vh;
+  height: 100%;
+}
+.logo{
+  width: 200px;
+  margin-left: 50px;
+
 }
 .landing-page h2{
   color: #D22B2B;
@@ -13,6 +18,7 @@
 .landing-wording{
   display: flex;
   align-items: center;
+  margin-top: -140px;
 }
 .landing-image{
   width: 70%;
@@ -166,6 +172,10 @@ footer span{
 }
 
 @media only screen and (max-width: 768px){
+  .logo{
+    width: 150px;
+    margin: 0;
+  }
   .landing-page{
     height: auto;
   }
@@ -175,6 +185,7 @@ footer span{
 }
   .landing-wording{
    flex-direction: column-reverse;
+    margin-top: 0;
   }
   .landing-text h1 {
     font-size: 27px;
