@@ -83,9 +83,9 @@ const Home = () => {
             <br /> services
           </p>
         </div>
-        <div className="why-choose-sub">
+        <div className="why-choose-sub one">
           <img src={chart}></img>
-          <div className="why-choose-desc">
+          <div className="why-choose-desc ">
             <h2>Experience</h2>
             <p>
               With a wealth of experience in project management, we have
@@ -95,8 +95,8 @@ const Home = () => {
             <button>LEARN MORE</button>
           </div>
         </div>
-        <div className="why-choose-sub">
-          <div className="why-choose-desc">
+        <div className="why-choose-sub two">
+          <div className="why-choose-desc ">
             <h2>Dedication</h2>
             <p>
               Your project becomes our project. We are dedicated to its success
@@ -106,9 +106,9 @@ const Home = () => {
           </div>
           <img src={document}></img>
         </div>
-        <div className="why-choose-sub">
+        <div className="why-choose-sub three">
           <img src={ruby}></img>
-          <div className="why-choose-desc">
+          <div className="why-choose-desc ">
             <h2>Tailored Solutions</h2>
             <p>
               We understand that every project is unique. Our approach is
@@ -119,6 +119,39 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="project-container">
+        <h1>Let's Discuss Your Project</h1>
+        <p>
+          Are you ready to embark on a journey to project success? Contact us{" "}
+          <br />
+          today, and let’s start the conversation about how Barq Al Sadaf can{" "}
+          <br />
+          help you achieve your project management goals. We look forward to{" "}
+          <br />
+          being a part of your project’s remarkable journey.
+        </p>
+      </div>
+      <div className="best-service-container">
+        <img src={manWithChart}></img>
+        <div className="best-service-wording">
+          <h3>WE ARE HERE</h3>
+          <h1>Best Service for You</h1>
+          <p>
+            At Barq al Sadaf, we understand that choosing the right project <br/>
+            management service can be a critical decision. To assist you in <br/>
+            making an informed choice, we offer a personalized service <br/>
+            recommendation based on your specific needs and project <br/>
+            requirements.
+          </p>
+        </div>
+      </div>
+      <div className="visit-us-container">
+         <h1>VISIT US</h1>
+      </div>
+      <footer>
+        <h2><span>[</span>&nbsp; CONTACT US TODAY &nbsp;<span>]</span></h2>
+        <p>We are here to assist you with your project management needs.</p>
+      </footer>
     </>
   );
 };
