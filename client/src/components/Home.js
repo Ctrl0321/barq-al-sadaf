@@ -8,6 +8,9 @@ import ruby from "../assets/ruby-red.png";
 import manWithChart from "../assets/manWithChart-red.png";
 import document from "../assets/document-red.png";
 import logo from "../assets/Logo.png"
+import {FaPhoneAlt} from "react-icons/fa";
+import {HiOfficeBuilding} from "react-icons/hi";
+import {FaLocationDot} from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -153,6 +156,22 @@ const Home = () => {
       <footer>
         <h2><span>[</span>&nbsp; CONTACT US TODAY &nbsp;<span>]</span></h2>
         <p>We are here to assist you with your project management needs.</p>
+        <div className="contact-details">
+          <div className="phone">
+            <FaPhoneAlt size={25} />
+            <p>+971-4-529-8567</p>
+          </div>
+          <div className="office">
+            <HiOfficeBuilding size={25} />
+            <p>Office no. 302 Coastal Investment Center</p>
+          </div>
+          <div className="location">
+            <FaLocationDot size={25} />
+            <p>Al Qsais ||,Dubai,U.A.E </p>
+          </div>
+
+
+        </div>
       </footer>
     </>
   );
