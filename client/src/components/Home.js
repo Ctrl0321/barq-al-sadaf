@@ -153,6 +153,18 @@ const Home = () => {
       <div className="visit-us-container">
          <h1>VISIT US</h1>
       </div>
+      <div className="map">
+      <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d55.361923!3d25.2711548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c35d410acf3%3A0xe8aff9f4de65bf11!2sAl%20Qusais%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sae!4v1601138221085!5m2!1sen!2sae&ll=25.2711548,55.361923"
+              width="600"
+              height="450"
+              frameBorder="0"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              aria-hidden="false"
+              tabIndex="0"
+            />
+      </div>
       <footer>
         <h2><span>[</span>&nbsp; CONTACT US TODAY &nbsp;<span>]</span></h2>
         <p>We are here to assist you with your project management needs.</p>

@@ -190,6 +190,13 @@ footer span{
  .location p{
   margin-left: 10px;
  }
+ iframe{
+ margin: 10px auto;
+ }
+ .map{
+display: flex;
+justify-content: center;
+ }
 
 
 
@@ -314,4 +321,7 @@ footer span{
   .location p{
     margin-left: 10px;
   }
+  iframe{
+   width: 100%;
+    }
   }
